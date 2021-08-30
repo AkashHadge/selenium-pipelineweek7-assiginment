@@ -1,6 +1,6 @@
 node {
 	stage ('SCM checkout'){
-		git "https://github.com/AkashHadge/selenium-Jenkinspipeline"
+		git "https://github.com/AkashHadge/selenium-pipelineweek7-assiginment"
 		}
 	stage ('Build'){
     	dir("comtest") {
