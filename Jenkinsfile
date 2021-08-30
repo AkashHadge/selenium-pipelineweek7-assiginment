@@ -8,6 +8,6 @@ node {
        }
 	}
     stage ('test') {
-    	bat "java -jar comtest/target/com.test-1.0-SNAPSHOT.jar"
+    	bat "java -jar src/SeleniumAssignmentweek7.java"
     }
 }
